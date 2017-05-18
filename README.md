@@ -1,35 +1,6 @@
-DOWNLOAD JS
-===========
-
-Intelligent JavaScript solution for file downloading.
-Easy to use - just call <code>downloadFile(URL)</code> global function.
-
-<a href="http://pixelscommander.com/polygon/downloadjs/">See it in action</a>
-
-<a href="http://pixelscommander.com/en/javascript/javascript-file-download-ignore-content-type/">Article about</a>
 
 
-Why DownloadJS?
----------------
+This is a fork of [This repository](https://github.com/PixelsCommander/Download-File-JS).
 
-- Avoids stupid blank screens after file starts downloading in Chrome, Safari;
-- Ignores content type by using virtual link with "download" attribute. So file will be downloaded even if content type says browser to show file`s content in new window. This allows to download PNGs, HTMLs and so on;
-- Small function without any dependencies.
-- Informs user if downloading is restricted on his device avoiding unpredicted behaviour.
-
-
-
-Bug tracker
------------
-
-Have a bug? Please create an issue here on GitHub!
-
-https://github.com/PixelsCommander/Download-File-JS/issues
-
-
-License
----------------------
-
-Copyright 2013 Denis Radin.
-
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
+The new added feature:
+   * `Save the downloaded file with your desirable name` → I added a new optional parameter to the downloadFile function (a string of the file's name) and if you insert it, The file will be saved with the desired name (You still can use the function with only one parameter and it will be saved with its original name). It worked well on Firefox 53.0.2 (64-bit) and Google Chrome  56.0.2924.87 (64-bit).
